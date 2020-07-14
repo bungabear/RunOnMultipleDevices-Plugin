@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.bungabear.AndroidRunOnMultipleDevices</id>
+    <name>Android Run On Multiple Devices</name>
+    <vendor email="bungabear6422@gmail.com.com" url="https://github.com/bungabear/RunOnMultipleDevices-Plugin">bungabear</vendor>
+
+    <description><![CDATA[
+    Now, you can "Run on Multiple Devices" popup with Ctrl+Shift+fF10
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="RunOnMultipleDevicesPopup"
+                class="action.RunOnMultipleDevicesPopupAction"
+                text="Run On Multiple Devices Popup"
+                description="Open run on multiple devices popup">
+
+            <keyboard-shortcut first-keystroke="ctrl shift F10" keymap="$default"/>
+        </action>
+    </actions>
+</idea-plugin>
