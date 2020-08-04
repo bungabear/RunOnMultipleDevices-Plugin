@@ -8,9 +8,13 @@
     If not work on your Intellij or Android Studio version, please issue on my github https://github.com/bungabear/RunOnMultipleDevices-Plugin
     ]]></description>
 
+    <change-notes>Support Intellij version changed to 182.*</change-notes>
+
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.platform</depends>
+
+    <idea-version since-build="182.*"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
