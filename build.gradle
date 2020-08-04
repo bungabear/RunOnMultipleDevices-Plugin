@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'com.bungabear'
-version '1.0'
+version '1.1'
 
 sourceCompatibility = 1.8
 
@@ -20,7 +20,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2019.3.4'
+    version '2019.2'
 }
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
