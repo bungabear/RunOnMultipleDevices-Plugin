@@ -18,10 +18,6 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
-intellij {
-    version '2019.2'
-}
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
@@ -29,6 +25,6 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 patchPluginXml {
-    changeNotes """
-      Simple action implemented"""
+    changeNotes """Support Intellij version changed to 182.*"""
+    sinceBuild "182.*"
 }
