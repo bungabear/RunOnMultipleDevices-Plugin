@@ -4,8 +4,8 @@
     <vendor email="bungabear6422@gmail.com.com" url="https://github.com/bungabear/RunOnMultipleDevices-Plugin">bungabear</vendor>
 
     <description><![CDATA[
-    Now, you can "Run on Multiple Devices" popup with Ctrl+Shift+fF10
-    If not work on your Intellij or Android Studio version, please issue on my github https://github.com/bungabear/RunOnMultipleDevices-Plugin
+    You can "Run on Multiple Devices" popup with Ctrl+Shift+F10
+    If not work, Please issue on my github https://github.com/bungabear/RunOnMultipleDevices-Plugin
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html

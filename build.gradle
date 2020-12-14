@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'com.bungabear'
-version '1.1'
+version '1.2'
 
 sourceCompatibility = 1.8
 
@@ -25,6 +25,10 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 patchPluginXml {
-    changeNotes """Support Intellij version changed to 182.*"""
+    changeNotes """Support Android Studio 4.1"""
     sinceBuild "182.*"
+}
+runIde {
+    // test run with installed ide
+    ideDirectory 'C:\\Program Files\\Android\\Android Studio'
 }
